@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoTeam</string>
+    <string name="gong">Gong</string>
+    <string name="crickets">Crickets</string>
+    <string name="miracle">Miracle</string>
+    <string name="small_crackers">Small Crackers</string>
+    <string name="magic_8">Magic 8</string>
+    <string name="fire_works">Fire Works</string>
+    <string name="drum_roll">Drum Roll</string>
+    <string name="bummer">Bummer</string>
+</resources>

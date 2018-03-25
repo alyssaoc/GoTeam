@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soloiq.goteam.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/Gong"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="casual"
+        android:longClickable="false"
+        android:onClick="playGong"
+        android:text="@string/gong"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fail"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="casual"
+        android:onClick="playFail"
+        android:text="@string/bummer"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Gong"
+        app:layout_constraintStart_toStartOf="@+id/Gong"
+        app:layout_constraintTop_toBottomOf="@+id/Gong" />
+
+    <Button
+        android:id="@+id/Crickets"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:fontFamily="casual"
+        android:onClick="playCrickets"
+        android:text="@string/crickets"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/fail"
+        app:layout_constraintStart_toStartOf="@+id/fail"
+        app:layout_constraintTop_toBottomOf="@+id/fail" />
+
+    <Button
+        android:id="@+id/Crackers"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="casual"
+        android:onClick="playCrackers"
+        android:text="@string/small_crackers"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Miracle"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="casual"
+        android:onClick="playMiracle"
+        android:text="@string/miracle"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Crackers" />
+
+    <Button
+        android:id="@+id/drums"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="casual"
+        android:onClick="playDrums"
+        android:text="@string/drum_roll"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Miracle" />
+
+    <Button
+        android:id="@+id/fireworks"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:fontFamily="casual"
+        android:onClick="playFireworks"
+        android:text="@string/fire_works"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/mood"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/mood"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mood"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:onClick="playMagic"
+        android:text="@string/magic_8"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fireworks" />
+
+</android.support.constraint.ConstraintLayout>
